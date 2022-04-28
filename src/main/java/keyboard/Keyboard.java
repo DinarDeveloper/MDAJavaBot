@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Keyboard {
-
     public static void setButtons(SendMessage sendMessage) {
         //Создаем объект будущей клавиатуры и выставляем нужные настройки
         ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
