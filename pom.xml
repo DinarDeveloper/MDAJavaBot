@@ -40,12 +40,12 @@
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.3</version>
-                <configuration>
-                    <appName>mda-java-bot</appName>
-                    <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* com.example.MDAJavaBot</web>
-                    </processTypes>
-                </configuration>
+<!--                <configuration>-->
+<!--                    <appName>mda-java-bot</appName>-->
+<!--                    <processTypes>-->
+<!--                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* com.example.MDAJavaBot</web>-->
+<!--                    </processTypes>-->
+<!--                </configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
