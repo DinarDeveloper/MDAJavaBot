@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.example.Main
+web: java -Dserver.port=$PORT -jar target/MDAJavaBot-1.0-SNAPSHOT.jar
