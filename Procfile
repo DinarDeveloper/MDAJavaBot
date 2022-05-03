@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/mda-java-bot.jar com.foo.Main
+web: java -Dserver.port=$PORT -jar target/MDAJavaBot-1.0-SNAPSHOT.jar com.foo.Main
