@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar out/MDAJavaBot.jar Main
+web: java -Dserver.port=$PORT -jar out/MDAJavaBot.jar
