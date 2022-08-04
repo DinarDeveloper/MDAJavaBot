@@ -1,1 +1,0 @@
-web: java -Dserver.port=$PORT -jar out/MDAJavaBot.jar
